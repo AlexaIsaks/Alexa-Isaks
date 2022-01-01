@@ -1,0 +1,128 @@
+// About page
+.about {
+  padding: 1.875rem 2.625rem 3.104rem;
+  @include dflex(column, wrap, center, center);
+
+  @include media-query("medium") {
+    padding-left: 5.125rem;
+    padding-right: 5.125rem;
+    padding-bottom: 3.136rem;
+  }
+
+  @include media-query("large") {
+    padding-top: 3.125rem;
+    padding-bottom: 4.713rem; 
+    padding-right: 0;
+    height: calc(100vh - 6.25rem);
+    flex-flow: row nowrap;
+    align-items: flex-start;
+  }
+
+  @include media-query("extra-large") {
+    padding-left: 10.75rem;
+    padding-right: 12.75rem;
+    padding-bottom: 3.151rem;
+  }
+}
+
+// Profile picture
+.about__profile-picture-container {
+  margin: 0 auto 1.875rem auto;
+
+  @include media-query("large") {
+    margin-bottom: 0;
+    padding-right: 2.5rem;
+  }
+
+  @include media-query("extra-large") {
+    padding-right: 8.625rem;
+  }
+}
+
+.about__profile-picture {
+  height: 14.313rem;
+  width: 14.313rem;
+
+  background-image: url("../../assets/images/brand/about-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @include media-query("medium") {
+    height: 34.813rem;
+    width: 34.813rem;
+  }
+
+  @include media-query("large") {
+    height: 22.834rem;
+    width: 22.764rem;
+    background-image: url("../../assets/images/brand/about-1024.png");
+  }
+
+  @include media-query("extra-large") {
+    height: 24.5rem;
+    width: 24.5rem;
+  }
+}
+
+// Profile information
+.about__information-container {
+  border-left: none;
+
+  @include media-query("large") {
+    padding-left: 3.063rem;
+    padding-right: 5.125rem;
+    height: 100%;
+    overflow-y: auto;
+    border-left: 1px solid $iron;
+  }
+
+  @include media-query("extra-large") {
+    padding-left: 4.375rem;
+  }
+}
+
+.about__title {
+  display: none;
+
+  @include media-query("large") {
+    display: block;
+    margin: 0 0 1.588rem;
+
+    font-size: 0.75rem;
+    color: $mantle;
+    font-weight: 500;
+    letter-spacing: 1.8px;
+    line-height: 38pt;
+    text-transform: uppercase;
+    text-align: left;
+  }
+}
+
+.about__subtitle {
+  margin: 0 0 1.875rem;
+
+  color: $brightgrey;
+  font-weight: 300;
+  font-size: 1.875rem;
+  line-height: 40pt;
+  letter-spacing: 0.75px;
+  text-align: left;
+
+  @include media-query("large") {
+    padding-right: 6.938rem;
+    font-size: 2.125rem;
+  }
+
+  @include media-query("extra-large") {
+    margin-bottom: 3.125rem;
+  }
+}
+
+.about__description {
+  color: $brightgrey;
+  font-weight: 300;
+  font-size: 1.0625rem;
+  line-height: 25pt;
+  text-align: left;
+}

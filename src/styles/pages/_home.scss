@@ -1,0 +1,73 @@
+// Home page
+.home {
+  position: relative;
+  height: 100%;
+
+  background-image: url(../../assets/images/brand/landing-mobile.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+  @include media-query("extra-large") {
+    background-image: url(../../assets/images/brand/landing-desktop.png);
+    background-position-x: 70%;
+    z-index: initial;
+  }
+}
+
+.home__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 17.188rem;
+  width: 17.188rem;
+  @include dflex(column, wrap, center, center);
+
+  border-radius: 50%;
+  background-color: $blackhaze;
+
+  @include media-query("medium") {
+    height: 40.033rem;
+    width: 40.033rem;
+  }
+
+  @include media-query("extra-large") {
+    height: 25.506rem;
+    width: 25.506rem;
+  }
+}
+
+.home__logo {
+  height: 2.59rem;
+  width: 7.456rem;
+  margin-bottom: 2.414rem;
+
+  @include media-query("medium") {
+    height: 6.043rem;
+    width: 17.396rem;
+    margin-bottom: 5.602rem;
+  }
+
+  @include media-query("extra-large") {
+    height: 3.379rem;
+    width: 9.726rem;
+    margin-bottom: 2.629rem;
+  }
+}
+
+.home__logo-description {
+  height: 0.618rem;
+  width: 11.26rem;
+
+  @include media-query("medium") {
+    height: 1.441rem;
+    width: 26.269rem;
+  }
+
+  @include media-query("extra-large") {
+    height: 0.63rem;
+    width: 11.48rem;
+  }
+}

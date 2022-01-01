@@ -1,0 +1,83 @@
+// Site header
+.site-header {
+  height: 3.125rem;
+  width: 100%;
+  padding: 0 0.9375rem;
+  @include dflex(row, wrap, space-between, center);
+
+  @include media-query("large") {
+    height: 6.25rem;
+    padding: 0 0 0 2.625rem;
+  }
+}
+
+// Brand logo
+.site-header__logo {
+  height: 2.23rem;
+  width: 4.125rem;
+
+  @include media-query("medium") {
+    height: 3.25rem;
+    width: 6rem;
+  }
+}
+
+// Site navigation
+.site-header__navigation-container {
+    @include media-query("large") {
+      height: auto;
+      width: fit-content;
+    }
+}
+
+// Menu icons
+.site-header__icons-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 3.125rem;
+  width: 3.125rem;
+  @include dflex(row, wrap, center, center);
+  z-index: 1;
+
+  @include media-query("large") {
+    display: none;
+  }
+}
+
+.site-header__burger-icon {
+  height: 0.9375rem;
+  width: 1.25rem;
+}
+
+.site-header__burger-icon--hide {
+  display: none;
+}
+
+.site-header__close-icon {
+  height: 0.9375rem;
+  width: 1.25rem;
+}
+
+.site-header__close-icon--hide {
+  display: none;
+}
+
+.site-header__navigation-draw {
+  position: fixed;
+  top: 0; 
+  left: calc(100vw + 1000px);
+  right: -1000px;
+  bottom: 0;
+  transition: all ease-in-out 1s;
+
+  @include media-query("large") {
+    position: static;
+  }
+}
+
+.site-header__navigation-draw--open { 
+  left: 0;
+  right: 0;
+  transition: all ease-in-out 1s;
+}

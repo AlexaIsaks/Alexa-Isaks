@@ -1,0 +1,85 @@
+// Contact page
+.contact {
+  position: relative;
+  height: 100%;
+
+  background-image: url(../../assets/images/brand/landing-mobile.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+  @include media-query("extra-large") {
+    background-image: url(../../assets/images/brand/landing-desktop.png);
+    background-position-x: 70%;
+    z-index: initial;
+  }
+}
+
+.contact-inner {
+  margin: 0 auto; position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 17.188rem;
+  width: 17.188rem;
+  @include dflex(column, wrap, center, center);
+
+  border-radius: 50%;
+  background-color: $blackhaze;
+
+  @include media-query("medium") {
+    height: 40.033rem;
+    width: 40.033rem;
+  }
+
+  @include media-query("extra-large") {
+    height: 25.506rem;
+    width: 25.506rem;
+  }
+}
+
+.contact__title {
+  margin: 0 0 1.5rem;
+
+  font-size: 0.75rem;
+  color: $mantle;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.contact__subtitle {
+  margin: 0 0 1.875rem;
+
+  font-size: 1.875rem;
+  color: $brightgrey;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+  text-align: center;
+
+  @include media-query("large") {
+    margin-bottom: 3.69rem;
+    
+    font-size: 2.125rem;
+    letter-spacing: 0.85px;
+  }
+}
+
+.contact__link {
+  margin: 0;
+  @include dflex(row, wrap, center, end);
+
+  font-size: 1rem;
+  color: $brightgrey;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.contact__linkedin-icon {
+  margin-right: 0.381rem;
+}
+
+

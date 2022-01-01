@@ -1,0 +1,51 @@
+// Body
+.body {
+  height: 100%;
+  background-color: $blackhaze;
+  opacity: 1;
+}
+
+.body--stop-scroll {
+  overflow-y: hidden;
+}
+
+// Site
+.site {
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Barlow', sans-serif;
+}
+
+.site__main {
+  padding-bottom: 4.1875rem;
+  width: 100%;
+}
+
+.site__main--height {
+  height: calc(100vh - 3.125rem - 4.1875rem);
+
+  @include media-query("medium") {
+    height: calc(100vh - 3.125rem - 3.938rem);
+  }
+
+  @include media-query("large") {
+    height: calc(100vh - 6.25rem - 4.1875rem);
+  }
+}
+
+.site__footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 4.1875rem;
+  width: 100%;
+
+  @include media-query("medium") {
+    height: 3.938rem;
+  }
+
+  @include media-query("large") {
+    height: 4.1875rem;
+  }
+}

@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./styles/App.scss";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
@@ -9,7 +9,7 @@ import Contact from "./components/pages/Contact";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="site">
         {/*Site header */}
         <Header />
@@ -31,7 +31,7 @@ const App = () => {
         {/*Site Footer */}
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

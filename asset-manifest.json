@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/alexa-isaks/static/css/main.7d95afcc.chunk.css",
+    "main.js": "/alexa-isaks/static/js/main.a52c56df.chunk.js",
+    "main.js.map": "/alexa-isaks/static/js/main.a52c56df.chunk.js.map",
+    "runtime-main.js": "/alexa-isaks/static/js/runtime-main.ce2ebc6c.js",
+    "runtime-main.js.map": "/alexa-isaks/static/js/runtime-main.ce2ebc6c.js.map",
+    "static/js/2.98b37e06.chunk.js": "/alexa-isaks/static/js/2.98b37e06.chunk.js",
+    "static/js/2.98b37e06.chunk.js.map": "/alexa-isaks/static/js/2.98b37e06.chunk.js.map",
+    "static/js/3.09a68b5c.chunk.js": "/alexa-isaks/static/js/3.09a68b5c.chunk.js",
+    "static/js/3.09a68b5c.chunk.js.map": "/alexa-isaks/static/js/3.09a68b5c.chunk.js.map",
+    "index.html": "/alexa-isaks/index.html",
+    "static/css/main.7d95afcc.chunk.css.map": "/alexa-isaks/static/css/main.7d95afcc.chunk.css.map",
+    "static/js/2.98b37e06.chunk.js.LICENSE.txt": "/alexa-isaks/static/js/2.98b37e06.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/alexa-isaks/static/media/landing-mobile.c4b38326.png",
+    "static/media/burger-icon.f8028f1d.svg": "/alexa-isaks/static/media/burger-icon.f8028f1d.svg",
+    "static/media/close-icon.4d943937.svg": "/alexa-isaks/static/media/close-icon.4d943937.svg",
+    "static/media/github-icon.72168e33.svg": "/alexa-isaks/static/media/github-icon.72168e33.svg",
+    "static/media/logo-header.23a297aa.svg": "/alexa-isaks/static/media/logo-header.23a297aa.svg",
+    "static/media/logo-landing-description.ee38f792.svg": "/alexa-isaks/static/media/logo-landing-description.ee38f792.svg",
+    "static/media/logo-landing.768c736a.svg": "/alexa-isaks/static/media/logo-landing.768c736a.svg",
+    "static/media/portfolio-book-review.jpg": "/alexa-isaks/static/media/portfolio-book-review.ccffed3b.jpg",
+    "static/media/portfolio-credential-management.jpg": "/alexa-isaks/static/media/portfolio-credential-management.c9f4e299.jpg",
+    "static/media/portfolio-dev-search.jpg": "/alexa-isaks/static/media/portfolio-dev-search.4c966cc2.jpg",
+    "static/media/portfolio-hangman.jpg": "/alexa-isaks/static/media/portfolio-hangman.da7fb204.jpg",
+    "static/media/portfolio-multipage-website.jpg": "/alexa-isaks/static/media/portfolio-multipage-website.278c818f.jpg",
+    "static/media/portfolio-netflix.jpg": "/alexa-isaks/static/media/portfolio-netflix.bb4445c9.jpg",
+    "static/media/portfolio-online-cv.jpg": "/alexa-isaks/static/media/portfolio-online-cv.4611fb15.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce2ebc6c.js",
+    "static/js/2.98b37e06.chunk.js",
+    "static/css/main.7d95afcc.chunk.css",
+    "static/js/main.a52c56df.chunk.js"
+  ]
+}

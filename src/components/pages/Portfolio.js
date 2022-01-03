@@ -70,7 +70,7 @@ const Portfolio = () => {
         <section className="portfolio__introduction">
           <h1 className="portfolio__title">_Portfolio</h1>
           <h2 className="portfolio__subtitle">
-            Some of the project I have worked on
+            Some of the projects I have worked on
           </h2>
           <ul className="portfolio__filter-container">
             <li className="portfolio__filter">HTML</li>

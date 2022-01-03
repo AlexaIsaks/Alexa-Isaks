@@ -6,7 +6,6 @@
 
   background-color: $mantle;
   opacity: 0.9;
-  z-index: 1;
   
   @include media-query("large") {
     padding: 0;

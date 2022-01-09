@@ -82,20 +82,15 @@
 }
 
 .about__title {
-  display: none;
+  margin: 0 0 1.588rem;
 
-  @include media-query("large") {
-    display: block;
-    margin: 0 0 1.588rem;
-
-    font-size: 0.75rem;
-    color: $mantle;
-    font-weight: 500;
-    letter-spacing: 1.8px;
-    line-height: 38pt;
-    text-transform: uppercase;
-    text-align: left;
-  }
+  font-size: 0.75rem;
+  color: $mantle;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  line-height: 38pt;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 .about__subtitle {

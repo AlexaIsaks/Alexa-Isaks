@@ -19,12 +19,13 @@
 
 .portfolio__introduction {
   @include media-query("large") {
-     width: 18.75rem;
+     width: 40%; //18.75rem;
      padding-right: 2.5rem;
   }
 
   @include media-query("extra-large") {
-    width: 18.688rem;
+    width: 30%;
+    // width: 18.688rem;
     padding-right: 2.313rem;
   }
 }
@@ -51,7 +52,6 @@
   text-align: left;
 
   @include media-query("large") {
-    padding-bottom: 2.5rem;
     padding-right: 0;
   }
 }
@@ -101,12 +101,13 @@
   width: 100%;
 
   @include media-query("large") {
-    width: auto;
+    width: 60%;//auto;
     padding-left: 4.688rem;
     border-left: 1px solid $iron;
   }
 
   @include media-query("extra-large") {
+    width: 75%;
     padding-left: 6.25rem;
   }
 }

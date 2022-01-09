@@ -2,16 +2,17 @@
 .home {
   position: relative;
   height: 100%;
+  width: 100%;
 
-  background-image: url(../../assets/images/brand/landing-mobile.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  // REMOVE BACKGROUND FOR NOW
+  // background-image: url(../../assets/images/brand/landing-mobile.png);
+  // background-size: contain;
+  // background-position: center;
+  // background-repeat: no-repeat;
 
-  @include media-query("extra-large") {
-    background-image: url(../../assets/images/brand/landing-desktop.png);
-    background-position-x: 70%;
-  }
+  // @include media-query("large") {
+  //   background-image: url(../../assets/images/brand/landing-desktop.png);
+  // }
 }
 
 .home__inner {
@@ -19,8 +20,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 17.188rem;
-  width: 17.188rem;
+  height: 17.159rem;
+  width: 17.159rem;
   @include dflex(column, wrap, center, center);
 
   border-radius: 50%;
@@ -31,7 +32,7 @@
     width: 40.033rem;
   }
 
-  @include media-query("extra-large") {
+  @include media-query("large") {
     height: 25.506rem;
     width: 25.506rem;
   }
@@ -45,27 +46,36 @@
   @include media-query("medium") {
     height: 6.043rem;
     width: 17.396rem;
-    margin-bottom: 5.602rem;
+  }
+
+  @include media-query("large") {
+    margin-bottom: 0;
+    height: 6.063rem;
+    width: 9.726rem;
   }
 
   @include media-query("extra-large") {
-    height: 3.379rem;
+    height: 6.063rem;
     width: 9.726rem;
-    margin-bottom: 2.629rem;
   }
 }
 
 .home__logo-description {
-  height: 0.618rem;
+  height: 1rem;
   width: 11.26rem;
 
   @include media-query("medium") {
-    height: 1.441rem;
+    height: 1.5rem;
     width: 26.269rem;
   }
 
+  @include media-query("large") {
+    height: 2.5rem;
+    width: 11.48rem;
+  }
+
   @include media-query("extra-large") {
-    height: 0.63rem;
+    //height: 0.63rem;
     width: 11.48rem;
   }
 }

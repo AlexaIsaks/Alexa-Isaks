@@ -3,15 +3,16 @@
   position: relative;
   height: 100%;
 
-  background-image: url(../../assets/images/brand/landing-mobile.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  // REMOVE FLORAL IMAGE FOR NOW
+  // background-image: url(../../assets/images/brand/landing-mobile.png);
+  // background-size: contain;
+  // background-position: center;
+  // background-repeat: no-repeat;
 
-  @include media-query("extra-large") {
-    background-image: url(../../assets/images/brand/landing-desktop.png);
-    background-position-x: 70%;
-  }
+  // @include media-query("extra-large") {
+  //   background-image: url(../../assets/images/brand/landing-desktop.png);
+  //   background-position-x: 70%;
+  // }
 }
 
 .contact-inner {

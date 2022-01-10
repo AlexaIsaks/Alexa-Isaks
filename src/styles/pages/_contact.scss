@@ -20,8 +20,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 17.188rem;
-  width: 17.188rem;
+  height: 17.159rem;
+  width: 17.159rem;
   @include dflex(column, wrap, center, center);
 
   border-radius: 50%;
@@ -32,7 +32,7 @@
     width: 40.033rem;
   }
 
-  @include media-query("extra-large") {
+  @include media-query("large") {
     height: 25.506rem;
     width: 25.506rem;
   }

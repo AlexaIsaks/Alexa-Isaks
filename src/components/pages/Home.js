@@ -1,5 +1,5 @@
 import LogoLanding from "../../assets/images/brand/logo-landing.svg";
-import LogoLandingDescription from "../../assets/images/brand/logo-landing-description.svg";
+// import LogoLandingDescription from "../../assets/images/brand/logo-landing-description.svg";
 
 // Home page
 const Home = () => {

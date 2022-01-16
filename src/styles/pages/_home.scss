@@ -3,6 +3,7 @@
   position: relative;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 
   // REMOVE BACKGROUND FOR NOW
   // background-image: url(../../assets/images/brand/landing-mobile.png);
@@ -21,10 +22,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   height: 17.159rem;
-  width: 17.159rem;
+  width: 100%;
   @include dflex(column, wrap, center, center);
-
-  border-radius: 50%;
   background-color: $blackhaze;
 
   @include media-query("medium") {

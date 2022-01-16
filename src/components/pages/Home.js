@@ -8,7 +8,7 @@ const Home = () => {
       <div className="home">
         <div className="home__inner">
           <img src={LogoLanding} alt="Logo" className="home__logo"/>
-          <img src={LogoLandingDescription} alt="Logo Description" className="home__logo-description"/>
+          <h1 className="home__title">Front End / Full Stack Developer</h1>
         </div>
       </div>
     </main>

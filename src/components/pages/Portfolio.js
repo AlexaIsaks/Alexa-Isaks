@@ -81,7 +81,6 @@ const Portfolio = () => {
             <li className="portfolio__filter">React</li>
             <li className="portfolio__filter">Express</li>
             <li className="portfolio__filter">Node.js</li>
-            <li className="portfolio__filter">Clear</li>
           </ul>
 
           <p className="portfolio__description">

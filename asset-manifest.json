@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/alexa-isaks/static/css/main.b229b0ff.chunk.css",
-    "main.js": "/alexa-isaks/static/js/main.070e0645.chunk.js",
-    "main.js.map": "/alexa-isaks/static/js/main.070e0645.chunk.js.map",
+    "main.js": "/alexa-isaks/static/js/main.e5e54eec.chunk.js",
+    "main.js.map": "/alexa-isaks/static/js/main.e5e54eec.chunk.js.map",
     "runtime-main.js": "/alexa-isaks/static/js/runtime-main.ce2ebc6c.js",
     "runtime-main.js.map": "/alexa-isaks/static/js/runtime-main.ce2ebc6c.js.map",
-    "static/js/2.97f26c53.chunk.js": "/alexa-isaks/static/js/2.97f26c53.chunk.js",
-    "static/js/2.97f26c53.chunk.js.map": "/alexa-isaks/static/js/2.97f26c53.chunk.js.map",
+    "static/js/2.21236fd9.chunk.js": "/alexa-isaks/static/js/2.21236fd9.chunk.js",
+    "static/js/2.21236fd9.chunk.js.map": "/alexa-isaks/static/js/2.21236fd9.chunk.js.map",
     "static/js/3.09a68b5c.chunk.js": "/alexa-isaks/static/js/3.09a68b5c.chunk.js",
     "static/js/3.09a68b5c.chunk.js.map": "/alexa-isaks/static/js/3.09a68b5c.chunk.js.map",
     "index.html": "/alexa-isaks/index.html",
     "static/css/main.b229b0ff.chunk.css.map": "/alexa-isaks/static/css/main.b229b0ff.chunk.css.map",
-    "static/js/2.97f26c53.chunk.js.LICENSE.txt": "/alexa-isaks/static/js/2.97f26c53.chunk.js.LICENSE.txt",
+    "static/js/2.21236fd9.chunk.js.LICENSE.txt": "/alexa-isaks/static/js/2.21236fd9.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/alexa-isaks/static/media/about-mobile.515cc449.png",
     "static/media/burger-icon.f8028f1d.svg": "/alexa-isaks/static/media/burger-icon.f8028f1d.svg",
     "static/media/close-icon.4d943937.svg": "/alexa-isaks/static/media/close-icon.4d943937.svg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ce2ebc6c.js",
-    "static/js/2.97f26c53.chunk.js",
+    "static/js/2.21236fd9.chunk.js",
     "static/css/main.b229b0ff.chunk.css",
-    "static/js/main.070e0645.chunk.js"
+    "static/js/main.e5e54eec.chunk.js"
   ]
 }

@@ -2,40 +2,31 @@
 .contact {
   position: relative;
   height: 100%;
-
-  // REMOVE FLORAL IMAGE FOR NOW
-  // background-image: url(../../assets/images/brand/landing-mobile.png);
-  // background-size: contain;
-  // background-position: center;
-  // background-repeat: no-repeat;
-
-  // @include media-query("extra-large") {
-  //   background-image: url(../../assets/images/brand/landing-desktop.png);
-  //   background-position-x: 70%;
-  // }
+  width: 100vw;
+  overflow-y: hidden;
 }
 
 .contact-inner {
-  margin: 0 auto; position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 17.159rem;
-  width: 17.159rem;
-  @include dflex(column, wrap, center, center);
+  margin: 0 auto;
+  min-height: 25rem;
+  min-width: 280px;
+  height: 100%;
+  width: 100%;
+  @include dflex(row, wrap, center, center);
 
-  border-radius: 50%;
-  background-color: $blackhaze;
-
-  @include media-query("medium") {
-    height: 40.033rem;
-    width: 40.033rem;
-  }
+  background-image: url(../../assets/images/brand/floral-mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 
   @include media-query("large") {
-    height: 25.506rem;
-    width: 25.506rem;
+    background-image: url(../../assets/images/brand/floral-desktop.png);
+    background-position: center;
   }
+}
+
+.contact__contact-container {
+  @include dflex(column, wrap, center, center);
 }
 
 .contact__title {
@@ -60,7 +51,7 @@
 
   @include media-query("large") {
     margin-bottom: 3.69rem;
-    
+
     font-size: 2.125rem;
     letter-spacing: 0.85px;
   }
@@ -78,7 +69,6 @@
 }
 
 .contact__linkedin-icon {
-
   margin-right: 0.381rem;
 }
 
@@ -90,5 +80,3 @@
   font-weight: 400;
   color: $brightgrey;
 }
-
-

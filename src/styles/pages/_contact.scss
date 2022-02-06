@@ -68,7 +68,7 @@
 
 .contact__link {
   margin: 0;
-  @include dflex(row, wrap, center, end);
+  @include dflex(row, wrap, center, center);
 
   font-size: 1rem;
   color: $brightgrey;
@@ -78,7 +78,17 @@
 }
 
 .contact__linkedin-icon {
+
   margin-right: 0.381rem;
+}
+
+.contact__linkedin-title {
+  margin: 0;
+
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 400;
+  color: $brightgrey;
 }
 
 

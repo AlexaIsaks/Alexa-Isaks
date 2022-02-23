@@ -145,6 +145,14 @@
   }
 }
 
+.result__link {
+  text-decoration: none;
+  color: $brightgrey;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
 .result__image-container {
   margin-bottom: 0.9375rem;
   height: auto;
@@ -165,15 +173,9 @@
   filter: grayscale(0%);
 }
 
-.result__link {
+.result__github-container {
   margin: 0 auto;
   @include dflex(row, wrap, start, center);
-
-  text-decoration: none;
-  color: $brightgrey;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: left;
 }
 
 .result__github {
